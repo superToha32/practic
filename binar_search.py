@@ -17,14 +17,13 @@ def binar_search(arr):
    right = arr[len(arr)-1]
    while (left<=right):
        mid = (right - left)//2 + left
-
        if mid > key:
            right = mid - 1
        if mid < key:
            left = mid + 1
        if mid == key:
-           break###
-    ###
-   return mid###
+           break
+
+   return mid
 
 print(users[binar_search(array)])
