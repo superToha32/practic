@@ -26,4 +26,4 @@ def binar_search(arr):
 
    return mid
 
-print(users[binar_search(array)])
+print(users[binar_search(array[:])])
